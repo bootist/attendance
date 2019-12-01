@@ -7,10 +7,10 @@
     //  $charset = 'utf8mb4';
 
     //Remote Database Connection
-     $host = remotemysql.com;
-     $db = XK1PqSfmSC;
-     $user = XK1PqSfmSC;
-     $pass = OWPfaqMhtC;
+     $host = 'remotemysql.com';
+     $db = 'XK1PqSfmSC';
+     $user = 'XK1PqSfmSC';
+     $pass = 'OWPfaqMhtC';
      $charset = 'utf8mb4';
 
      $dsn = "mysql:host=$host;dbname=$db;charset=$charset";
