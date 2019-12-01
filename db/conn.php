@@ -1,9 +1,16 @@
 +<?php 
     // Development Connection
-     $host = '127.0.0.1';
-     $db = 'attendance_db';
-     $user = 'root';
-     $pass = '';
+    //  $host = '127.0.0.1';
+    //  $db = 'attendance_db';
+    //  $user = 'root';
+    //  $pass = '';
+    //  $charset = 'utf8mb4';
+
+    //Remote Database Connection
+     $host = remotemysql.com;
+     $db = XK1PqSfmSC;
+     $user = XK1PqSfmSC;
+     $pass = OWPfaqMhtC;
      $charset = 'utf8mb4';
 
      $dsn = "mysql:host=$host;dbname=$db;charset=$charset";
